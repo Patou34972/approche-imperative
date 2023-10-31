@@ -8,6 +8,17 @@ public class AffichagePartiel {
                 System.out.println(array[i]);
             }
         }
+        for (int i=0; i<array.length; i++) {
+            if (array[i] % 2 == 0) {
+                System.out.println(array[i]);
+            }
+            if (i % 2 ==0) {
+                System.out.println(array[i]);
+            }
+            if (array[i] %2 != 0) {
+                System.out.println(array[i]);
+            }
+        }
 
     }
 
