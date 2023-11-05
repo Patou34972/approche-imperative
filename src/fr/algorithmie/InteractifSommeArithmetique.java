@@ -8,6 +8,13 @@ public class InteractifSommeArithmetique {
 
         System.out.print("Veuillez saisir un nombre : ");
         int nombre = scanner.nextInt();
+        int somme = 0;
+
+        for (int i = 1; i <= nombre; i++) {
+            somme += i;
+        }
+
+        System.out.println("La somme des entiers de 1 à " + nombre + " est : " + somme);
 
     }
 }
